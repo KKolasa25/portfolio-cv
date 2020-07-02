@@ -3,15 +3,17 @@ import './Portfolio.scss';
 
 const Portfolio = () => {
   return (
-    <div className="portfolio container">
-      <div className="main-div">
-        <div className="banner-intro">
-          my projects
-        </div>
-        <div className="projects-div look_content">
-          <div className="project look"></div>
-          <div className="project look"></div>
-          <div className="project look"></div>
+    <div className="portfolio">
+      <div className="container">
+        <div className="main-div">
+          <div className="banner-intro">
+            my projects
+          </div>
+          <div className="projects-div look_content">
+            <div className="project look"></div>
+            <div className="project look"></div>
+            <div className="project look"></div>
+          </div>
         </div>
       </div>
     </div>

@@ -3,7 +3,7 @@ import './Contact.scss';
 
 const Contact = () => {
   return (
-    <div className="contect container">
+    <div className="contact container">
       <div className="main-div">
         <div className="banner-intro">
           kontakt
