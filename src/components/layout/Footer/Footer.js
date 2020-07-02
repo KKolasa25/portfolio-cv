@@ -3,25 +3,11 @@ import './Footer.scss';
 
 const Footer = () => {
   return (
-    <div className="container">
-      <div className="contact">
-        <div className="contact-my">
-          kontakt
-        </div>
-        <div className="contact-icons-div">
-          <div className="contact-icons">
-          </div>
-          <div className="contact-icons">
-          </div>
-          <div className="contact-icons">
-          </div>
-          <div className="contact-icons">
-          </div>
-          <div className="contact-icons">
-          </div>
-          </div>
+    <footer className="footer">
+      <div className="footer-my_name">
+        © Kamil Kolasa
       </div>
-    </div>
+    </footer>
   );
 };
 

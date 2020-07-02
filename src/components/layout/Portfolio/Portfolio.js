@@ -3,19 +3,18 @@ import './Portfolio.scss';
 
 const Portfolio = () => {
   return (
-    <header className="container">
-      <div className="portfolio">
-        <div className="my-portfolio">
+    <div className="portfolio container">
+      <div className="main-div">
+        <div className="banner-intro">
           my projects
         </div>
-        <div className="projects-div">
-        <div className="project"></div>
-        <div className="project"></div>
-        <div className="project"></div>
+        <div className="projects-div look_content">
+          <div className="project look"></div>
+          <div className="project look"></div>
+          <div className="project look"></div>
+        </div>
       </div>
-      </div>
-      
-    </header>
+    </div>
   );
 };
 
